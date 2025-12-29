@@ -1,0 +1,91 @@
+<!-- Romantic Surprise Birthday for Shaique -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday, Shaique — A Special Surprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Global decorations -->
+  <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+  <div id="floatingHearts" class="floating-hearts"></div>
+  <div id="floatingBalloons" class="floating-balloons"></div>
+  <div class="bunting">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- Audio -->
+  <audio id="bgMusic" preload="auto" loop>
+    <source src="https://raw.githubusercontent.com/lavivijay1504-cmyk/website-audio/b9ef23651010cad1e29f0cb0559dff61def8b601/Trim_Ellie%20Goulding%20-%20Love%20Me%20Like%20You%20Do%20(Official%20Video)%20(1)_1.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Page 1: Countdown -->
+  <section id="page-countdown" class="page page-countdown" data-theme="dark-pink">
+    <div class="content">
+      <h1 class="script">A Special Surprise For My Love</h1>
+      <h2 class="title">Countdown to Midnight for <span class="accent">MY BABY</span></h2>
+      <div id="countdown" class="countdown">
+        <div class="unit"><span id="days">00</span><label>Days</label></div>
+        <div class="unit"><span id="hours">00</span><label>Hours</label></div>
+        <div class="unit"><span id="minutes">00</span><label>Minutes</label></div>
+        <div class="unit"><span id="seconds">00</span><label>Seconds</label></div>
+      </div>
+      <p class="subtext">Midnight magic awaits, for you my sweetheart.</p>
+      <div class="sparkles"></div>
+      <button id="testFlowBtn" class="test-btn">Test Flow (Skip to Midnight)</button>
+    </div>
+  </section>
+
+  <!-- Page 2: Happy Birthday -->
+  <section id="page-birthday" class="page page-birthday" data-theme="dark-blue">
+    <div class="content">
+      <h1 class="wish">Happy Birthday, <span class="accent">Shaique</span>!</h1>
+      <p class="burst">Make a wish. This day is just for my favourite human.</p>
+      <div class="cartoon-wrap">
+        <svg class="couple" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="70" cy="60" r="26" fill="#ffd1dc" stroke="#222" stroke-width="2"/>
+          <circle cx="130" cy="60" r="26" fill="#ffe0b2" stroke="#222" stroke-width="2"/>
+          <path d="M48 58 C58 35, 85 35, 94 58" fill="#111" opacity="0.9"/>
+          <path d="M106 58 C115 35, 142 35, 152 58" fill="#222" opacity="0.9"/>
+          <circle cx="62" cy="62" r="2" fill="#000"/>
+          <circle cx="138" cy="62" r="2" fill="#000"/>
+          <path id="kissL" d="M80 68 q6 4 12 0" fill="none" stroke="#c2185b" stroke-width="2"/>
+          <path id="kissR" d="M108 68 q-6 4 -12 0" fill="none" stroke="#c2185b" stroke-width="2"/>
+          <g id="kissHearts">
+            <path d="M100 40 c-3 -6 -12 -4 -12 3 c0 6 12 12 12 12 c0 0 12 -6 12 -12 c0 -7 -9 -9 -12 -3z"
+                  fill="#ff3b6b" opacity="0.8"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 3: Message card -->
+  <section id="page-message" class="page page-message" data-theme="black">
+    <div class="content card">
+      <h2 class="card-title">To my dearest <span class="accent">Shaique</span>,</h2>
+      <div class="card-body">
+        <p>My love, my everything, my better half... a very happy birthday babu, my cutie patutieee, pta h m na aapse boht pyar krti hu, pta ni aap na hote to mera kya hota. </p>
+        <p>Aapko shyd pta ni h mujhe ye din... aapka din itna q psnd h sirf isliye qki iss din aap aaye sirf mere liye thank you for coming into the world just for me... mujhe agr iss duniya me kch chiye to sirf aap, aap mere safe place, meri human diary mera sb kch ho... and i really wish ki aapki jitni b khwahishe ho jitne b spne ho sb pure ho jaye, m hmesha aapke sath rhungi hmesha hmesha hmesha k liye....my husband. </p>
+        <p>Babu aap hmesha khush rhna... jis trh aap mujhe rkhte ho... aap mera sukoon ho or hmesha rhoge... m chahti hu aap mere sath hmesha rho lakin sirf mere chahne se ni hota aap chahoge tb hi hoga... lakin m itna bolna chahungi ki m aapse boht bhot boht zyada pyar krti hu, i love you forever and ever and always, i love you babu and THANK YOU FOR BEING MY FAVOURITE PERSON, MY SAFEST PLACE, MY SWEETEST ADVENTURE...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 4: Final love page -->
+  <section id="page-final" class="page page-final" data-theme="deep-rose">
+    <div class="content">
+      <h2 class="final-script">For <span class="accent">Shaique</span>, forever my favorite view</h2>
+      <p class="final-line">
+        i love you babu 3000 and even more... you are my favourite view which i wanna see today tomorrow
+        and everyday of my life... you mean the world to me and once again a very happy birthday my love...
+      </p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
